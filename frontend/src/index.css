@@ -1,0 +1,166 @@
+#root{
+  height: 100vh !important;
+}
+body {
+  height: 100% !important;
+  background-image: url("css/back.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  color: white !important;
+  margin:0;
+  padding:0;
+  font-family:sweden_sansregular !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'sweden_sansregular';
+  src: url('css/swedensans-webfont.eot');
+  src: url('css/swedensans-webfont.eot?#iefix') format('embedded-opentype'),
+       url('css/swedensans-webfont.woff2') format('woff2'),
+       url('css/swedensans-webfont.woff') format('woff'),
+       url('css/swedensans-webfont.ttf') format('truetype'),
+       url('css/swedensans-webfont.svg#sweden_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*.long{
+  height: calc(100% - 1.8rem);
+}
+
+.col-md-2.left-border.long{
+  border-left-style: dotted ;
+  border-left-color: darkgrey ;
+}
+
+.bottom{
+  padding-top: 1rem;
+  border-bottom-style: dotted ;
+  border-bottom-color: darkgrey ;
+}
+
+.top{
+  padding-top: 1rem;
+}
+
+.center{
+  text-align: center;
+}
+
+.line{
+  display: inline-block;
+}
+
+.trMouseMove{
+  cursor: pointer;
+}
+
+.image{
+  width:100%;
+  height:auto; 
+}
+
+.modal{
+  overflow: visible !important;
+  display: flex !important;
+  background-color: rgba(169, 169, 169, 0.7) !important;
+  position: absolute !important ;
+  top:0 !important;
+  left:0 !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalImage{
+  margin: auto;
+  width: 350px;
+}
+
+
+*.hover-shadow {
+  transition: 0.3s;
+}
+
+*.hover-shadow-aplay{
+  box-shadow: 0 .1rem .6rem 0 rgb(252, 248, 1),0 .6rem 1rem 0 rgba(252, 248, 1),
+  0 -0.1rem .6rem 0 rgb(252, 248, 1),0 -0.6rem 1rem 0 rgba(252, 248, 1);
+}
+
+*.hover-shadow:hover {
+  box-shadow: 0 .1rem .6rem 0 rgb(252, 248, 1),0 .6rem 1rem 0 rgba(252, 248, 1),
+              0 -0.1rem .6rem 0 rgb(252, 248, 1),0 -0.6rem 1rem 0 rgba(252, 248, 1);
+}
+
+*.right{
+  float: right;
+}
+
+*.top-padding{
+  margin-top: 2rem;
+}
+*.btn-primary{
+  background-color: #4747d1 !important;
+  border-color: #4747d1 !important;
+  border-radius: 3em !important;
+}
+
+
+*.btn-primary:hover{
+  background-color: #5d5dd5 !important;
+  border-color: #5d5dd5 !important;
+}
+
+*.half{
+  width: 50% !important;
+}
+
+*.purple-background{
+  background-color: rgb(144, 41, 247,0.8) !important;
+  border-color: rgb(144, 41, 247,0.8) !important;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid rgb( 129, 3, 255 ) !important;
+}
+
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 2px solid rgb( 129, 3, 255 ) !important;
+}
+
+*.small-margin{
+  margin-top: 1rem;
+}
+
+.my-table{
+  background-color: rgb(144, 41, 247,0.6);
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+table.my-table th:first-child, td:first-child{
+  padding-left: 1rem;
+}
+
+.description{
+  background-color: rgb(144, 41, 247,0.6);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.vote-sign{
+  width: 100%;
+  text-align: center;
+}
